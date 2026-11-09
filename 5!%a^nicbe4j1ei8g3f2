@@ -5242,13 +5242,17 @@
         "protocol": "dns"
       }
     ],
-    "observatory": {
-      "probeUrl": "https://www.gstatic.com/generate_204",
-      "probeInterval": "30s",
+    "burstObservatory": {
       "subjectSelector": [
         "node-"
       ],
-      "enableConcurrency": true
+      "pingConfig": {
+        "destination": "http://tele2.se",
+        "interval": "30s",
+        "sampling": 2,
+        "timeout": "5s",
+        "httpMethod": "HEAD"
+      }
     },
     "remarks": "Автовыбор",
     "meta": {
@@ -8614,13 +8618,17 @@
         "protocol": "dns"
       }
     ],
-    "observatory": {
-      "probeUrl": "https://www.gstatic.com/generate_204",
-      "probeInterval": "30s",
+    "burstObservatory": {
       "subjectSelector": [
         "node-"
       ],
-      "enableConcurrency": true
+      "pingConfig": {
+        "destination": "http://tele2.se",
+        "interval": "30s",
+        "sampling": 2,
+        "timeout": "5s",
+        "httpMethod": "HEAD"
+      }
     },
     "remarks": "Основной",
     "meta": {
@@ -11518,13 +11526,17 @@
         "protocol": "dns"
       }
     ],
-    "observatory": {
-      "probeUrl": "https://www.gstatic.com/generate_204",
-      "probeInterval": "30s",
+    "burstObservatory": {
       "subjectSelector": [
         "node-"
       ],
-      "enableConcurrency": true
+      "pingConfig": {
+        "destination": "http://tele2.se",
+        "interval": "30s",
+        "sampling": 2,
+        "timeout": "5s",
+        "httpMethod": "HEAD"
+      }
     },
     "remarks": "Белые списки",
     "meta": {

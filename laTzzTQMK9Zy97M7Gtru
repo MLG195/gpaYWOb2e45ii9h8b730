@@ -924,7 +924,7 @@
           "strategy": {
             "type": "leastPing"
           },
-          "fallbackTag": "reserve-loop"
+          "fallbackTag": "fallback-loop"
         },
         {
           "tag": "Reserve",
@@ -3349,7 +3349,7 @@
         "tag": "reserve-0"
       },
       {
-        "tag": "reserve-loop",
+        "tag": "fallback-loop",
         "protocol": "loopback",
         "settings": {
           "inboundTag": "reserve-in"

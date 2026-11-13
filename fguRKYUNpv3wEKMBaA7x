@@ -1236,7 +1236,7 @@
           "network": "websocket",
           "security": "tls",
           "wsSettings": {
-            "path": "/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET",
+            "path": "/?ed=2048",
             "host": "fs.qicai99.com"
           },
           "tlsSettings": {
@@ -1266,7 +1266,7 @@
           "network": "websocket",
           "security": "tls",
           "wsSettings": {
-            "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2048",
+            "path": "/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET",
             "host": "fs.qicai99.com"
           },
           "tlsSettings": {
@@ -1296,11 +1296,12 @@
           "network": "websocket",
           "security": "tls",
           "wsSettings": {
-            "path": "/",
+            "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2048",
             "host": "fs.qicai99.com"
           },
           "tlsSettings": {
-            "serverName": "fs.qicai99.com"
+            "serverName": "fs.qicai99.com",
+            "allowInsecure": false
           }
         },
         "tag": "primary-10"
@@ -1310,7 +1311,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "104.18.39.33",
+              "address": "104.18.38.33",
               "port": 443,
               "users": [
                 {
@@ -1329,8 +1330,7 @@
             "host": "fs.qicai99.com"
           },
           "tlsSettings": {
-            "serverName": "fs.qicai99.com",
-            "allowInsecure": false
+            "serverName": "fs.qicai99.com"
           }
         },
         "tag": "primary-11"
@@ -1360,7 +1360,6 @@
           },
           "tlsSettings": {
             "serverName": "fs.qicai99.com",
-            "fingerprint": "edge",
             "allowInsecure": false
           }
         },
@@ -1391,7 +1390,7 @@
           },
           "tlsSettings": {
             "serverName": "fs.qicai99.com",
-            "fingerprint": "firefox",
+            "fingerprint": "edge",
             "allowInsecure": false
           }
         },
@@ -1422,7 +1421,7 @@
           },
           "tlsSettings": {
             "serverName": "fs.qicai99.com",
-            "fingerprint": "qq",
+            "fingerprint": "firefox",
             "allowInsecure": false
           }
         },
@@ -1433,7 +1432,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "104.18.40.33",
+              "address": "104.18.39.33",
               "port": 443,
               "users": [
                 {
@@ -1453,6 +1452,7 @@
           },
           "tlsSettings": {
             "serverName": "fs.qicai99.com",
+            "fingerprint": "qq",
             "allowInsecure": false
           }
         },
@@ -1483,7 +1483,6 @@
           },
           "tlsSettings": {
             "serverName": "fs.qicai99.com",
-            "fingerprint": "edge",
             "allowInsecure": false
           }
         },
@@ -1514,7 +1513,7 @@
           },
           "tlsSettings": {
             "serverName": "fs.qicai99.com",
-            "fingerprint": "ios",
+            "fingerprint": "edge",
             "allowInsecure": false
           }
         },
@@ -1545,11 +1544,42 @@
           },
           "tlsSettings": {
             "serverName": "fs.qicai99.com",
-            "fingerprint": "qq",
+            "fingerprint": "ios",
             "allowInsecure": false
           }
         },
         "tag": "primary-18"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "104.18.40.33",
+              "port": 443,
+              "users": [
+                {
+                  "id": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "websocket",
+          "security": "tls",
+          "wsSettings": {
+            "path": "/",
+            "host": "fs.qicai99.com"
+          },
+          "tlsSettings": {
+            "serverName": "fs.qicai99.com",
+            "fingerprint": "qq",
+            "allowInsecure": false
+          }
+        },
+        "tag": "primary-19"
       },
       {
         "protocol": "vless",
@@ -1580,7 +1610,7 @@
             "allowInsecure": false
           }
         },
-        "tag": "primary-19"
+        "tag": "primary-20"
       },
       {
         "protocol": "vless",
@@ -1610,7 +1640,7 @@
             "allowInsecure": false
           }
         },
-        "tag": "primary-20"
+        "tag": "primary-21"
       },
       {
         "protocol": "vless",
@@ -1640,36 +1670,6 @@
             "allowInsecure": false
           }
         },
-        "tag": "primary-21"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "104.26.13.54",
-              "port": 443,
-              "users": [
-                {
-                  "id": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
-                  "encryption": "none"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "websocket",
-          "security": "tls",
-          "wsSettings": {
-            "path": "/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET",
-            "host": "fs.qicai99.com"
-          },
-          "tlsSettings": {
-            "serverName": "fs.qicai99.com",
-            "allowInsecure": false
-          }
-        },
         "tag": "primary-22"
       },
       {
@@ -1692,7 +1692,7 @@
           "network": "websocket",
           "security": "tls",
           "wsSettings": {
-            "path": "/",
+            "path": "/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET",
             "host": "fs.qicai99.com"
           },
           "tlsSettings": {
@@ -1727,7 +1727,6 @@
           },
           "tlsSettings": {
             "serverName": "fs.qicai99.com",
-            "fingerprint": "chrome",
             "allowInsecure": false
           }
         },
@@ -1758,11 +1757,42 @@
           },
           "tlsSettings": {
             "serverName": "fs.qicai99.com",
-            "fingerprint": "qq",
+            "fingerprint": "chrome",
             "allowInsecure": false
           }
         },
         "tag": "primary-25"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "104.26.13.54",
+              "port": 443,
+              "users": [
+                {
+                  "id": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "websocket",
+          "security": "tls",
+          "wsSettings": {
+            "path": "/",
+            "host": "fs.qicai99.com"
+          },
+          "tlsSettings": {
+            "serverName": "fs.qicai99.com",
+            "fingerprint": "qq",
+            "allowInsecure": false
+          }
+        },
+        "tag": "primary-26"
       },
       {
         "protocol": "vless",
@@ -1791,7 +1821,7 @@
             "serverName": "fs.qicai99.com"
           }
         },
-        "tag": "primary-26"
+        "tag": "primary-27"
       },
       {
         "protocol": "vless",
@@ -1822,37 +1852,6 @@
             "allowInsecure": false
           }
         },
-        "tag": "primary-27"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "162.159.198.1",
-              "port": 443,
-              "users": [
-                {
-                  "id": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
-                  "encryption": "none"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "websocket",
-          "security": "tls",
-          "wsSettings": {
-            "path": "/?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM?ed=2560",
-            "host": "fs.qicai99.com"
-          },
-          "tlsSettings": {
-            "serverName": "fs.qicai99.com",
-            "fingerprint": "chrome",
-            "allowInsecure": false
-          }
-        },
         "tag": "primary-28"
       },
       {
@@ -1875,7 +1874,7 @@
           "network": "websocket",
           "security": "tls",
           "wsSettings": {
-            "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560",
+            "path": "/?ed=2560",
             "host": "fs.qicai99.com"
           },
           "tlsSettings": {
@@ -1906,7 +1905,7 @@
           "network": "websocket",
           "security": "tls",
           "wsSettings": {
-            "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed",
+            "path": "/?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM?ed=2560",
             "host": "fs.qicai99.com"
           },
           "tlsSettings": {
@@ -1937,7 +1936,7 @@
           "network": "websocket",
           "security": "tls",
           "wsSettings": {
-            "path": "/fp",
+            "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560",
             "host": "fs.qicai99.com"
           },
           "tlsSettings": {
@@ -1968,12 +1967,12 @@
           "network": "websocket",
           "security": "tls",
           "wsSettings": {
-            "path": "/fp",
+            "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed",
             "host": "fs.qicai99.com"
           },
           "tlsSettings": {
             "serverName": "fs.qicai99.com",
-            "fingerprint": "edge",
+            "fingerprint": "chrome",
             "allowInsecure": false
           }
         },
@@ -1999,7 +1998,7 @@
           "network": "websocket",
           "security": "tls",
           "wsSettings": {
-            "path": "/?Telegram---@pirozi_ArGaP---@pirozi_ArGaP---@pirozi_ArGaP---@pirozi_ArGaP",
+            "path": "/fp",
             "host": "fs.qicai99.com"
           },
           "tlsSettings": {
@@ -2030,6 +2029,68 @@
           "network": "websocket",
           "security": "tls",
           "wsSettings": {
+            "path": "/fp",
+            "host": "fs.qicai99.com"
+          },
+          "tlsSettings": {
+            "serverName": "fs.qicai99.com",
+            "fingerprint": "edge",
+            "allowInsecure": false
+          }
+        },
+        "tag": "primary-34"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "162.159.198.1",
+              "port": 443,
+              "users": [
+                {
+                  "id": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "websocket",
+          "security": "tls",
+          "wsSettings": {
+            "path": "/?Telegram---@pirozi_ArGaP---@pirozi_ArGaP---@pirozi_ArGaP---@pirozi_ArGaP",
+            "host": "fs.qicai99.com"
+          },
+          "tlsSettings": {
+            "serverName": "fs.qicai99.com",
+            "fingerprint": "chrome",
+            "allowInsecure": false
+          }
+        },
+        "tag": "primary-35"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "162.159.198.1",
+              "port": 443,
+              "users": [
+                {
+                  "id": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "websocket",
+          "security": "tls",
+          "wsSettings": {
             "path": "/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET",
             "host": "fs.qicai99.com"
           },
@@ -2039,7 +2100,7 @@
             "allowInsecure": false
           }
         },
-        "tag": "primary-34"
+        "tag": "primary-36"
       },
       {
         "protocol": "vless",
@@ -2069,7 +2130,7 @@
             "allowInsecure": false
           }
         },
-        "tag": "primary-35"
+        "tag": "primary-37"
       },
       {
         "protocol": "vless",
@@ -2099,7 +2160,7 @@
             "fingerprint": "qq"
           }
         },
-        "tag": "primary-36"
+        "tag": "primary-38"
       },
       {
         "protocol": "vless",
@@ -2128,7 +2189,7 @@
             "serverName": "fs.qicai99.com"
           }
         },
-        "tag": "primary-37"
+        "tag": "primary-39"
       },
       {
         "protocol": "vless",
@@ -2155,67 +2216,6 @@
           },
           "tlsSettings": {
             "serverName": "fs.qicai99.com",
-            "allowInsecure": false
-          }
-        },
-        "tag": "primary-38"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "172.64.152.33",
-              "port": 443,
-              "users": [
-                {
-                  "id": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
-                  "encryption": "none"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "websocket",
-          "security": "tls",
-          "wsSettings": {
-            "path": "/",
-            "host": "fs.qicai99.com"
-          },
-          "tlsSettings": {
-            "serverName": "fs.qicai99.com",
-            "allowInsecure": false
-          }
-        },
-        "tag": "primary-39"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "172.64.152.33",
-              "port": 443,
-              "users": [
-                {
-                  "id": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
-                  "encryption": "none"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "websocket",
-          "security": "tls",
-          "wsSettings": {
-            "path": "/",
-            "host": "fs.qicai99.com"
-          },
-          "tlsSettings": {
-            "serverName": "fs.qicai99.com",
-            "fingerprint": "firefox",
             "allowInsecure": false
           }
         },
@@ -2246,11 +2246,72 @@
           },
           "tlsSettings": {
             "serverName": "fs.qicai99.com",
-            "fingerprint": "qq",
             "allowInsecure": false
           }
         },
         "tag": "primary-41"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "172.64.152.33",
+              "port": 443,
+              "users": [
+                {
+                  "id": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "websocket",
+          "security": "tls",
+          "wsSettings": {
+            "path": "/",
+            "host": "fs.qicai99.com"
+          },
+          "tlsSettings": {
+            "serverName": "fs.qicai99.com",
+            "fingerprint": "firefox",
+            "allowInsecure": false
+          }
+        },
+        "tag": "primary-42"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "172.64.152.33",
+              "port": 443,
+              "users": [
+                {
+                  "id": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "websocket",
+          "security": "tls",
+          "wsSettings": {
+            "path": "/",
+            "host": "fs.qicai99.com"
+          },
+          "tlsSettings": {
+            "serverName": "fs.qicai99.com",
+            "fingerprint": "qq",
+            "allowInsecure": false
+          }
+        },
+        "tag": "primary-43"
       },
       {
         "protocol": "vless",
@@ -2279,7 +2340,7 @@
             "serverName": "fs.qicai99.com"
           }
         },
-        "tag": "primary-42"
+        "tag": "primary-44"
       },
       {
         "protocol": "vless",
@@ -2308,7 +2369,7 @@
             "serverName": "fs.qicai99.com"
           }
         },
-        "tag": "primary-43"
+        "tag": "primary-45"
       },
       {
         "protocol": "vless",
@@ -2339,7 +2400,7 @@
             "allowInsecure": false
           }
         },
-        "tag": "primary-44"
+        "tag": "primary-46"
       },
       {
         "protocol": "vless",
@@ -2370,7 +2431,7 @@
             "allowInsecure": false
           }
         },
-        "tag": "primary-45"
+        "tag": "primary-47"
       },
       {
         "protocol": "vless",
@@ -2401,7 +2462,7 @@
             "allowInsecure": false
           }
         },
-        "tag": "primary-46"
+        "tag": "primary-48"
       },
       {
         "protocol": "vless",
@@ -2431,7 +2492,7 @@
             "allowInsecure": false
           }
         },
-        "tag": "primary-47"
+        "tag": "primary-49"
       },
       {
         "protocol": "vless",
@@ -2462,7 +2523,7 @@
             "allowInsecure": false
           }
         },
-        "tag": "primary-48"
+        "tag": "primary-50"
       },
       {
         "protocol": "vless",
@@ -2490,65 +2551,6 @@
           "tlsSettings": {
             "serverName": "fs.qicai99.com",
             "allowInsecure": false
-          }
-        },
-        "tag": "primary-49"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "172.64.159.33",
-              "port": 443,
-              "users": [
-                {
-                  "id": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
-                  "encryption": "none"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "websocket",
-          "security": "tls",
-          "wsSettings": {
-            "path": "/",
-            "host": "fs.qicai99.com"
-          },
-          "tlsSettings": {
-            "serverName": "fs.qicai99.com"
-          }
-        },
-        "tag": "primary-50"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "172.67.167.207",
-              "port": 443,
-              "users": [
-                {
-                  "id": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
-                  "encryption": "none"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "websocket",
-          "security": "tls",
-          "wsSettings": {
-            "path": "/",
-            "host": "fs.qicai99.com"
-          },
-          "tlsSettings": {
-            "serverName": "fs.qicai99.com",
-            "fingerprint": "chrome"
           }
         },
         "tag": "primary-51"
@@ -2937,7 +2939,7 @@
         "settings": {
           "version": 2,
           "address": "195.63.128.21",
-          "port": 5443
+          "port": 10444
         },
         "streamSettings": {
           "network": "hysteria",
@@ -2951,6 +2953,26 @@
           }
         },
         "tag": "primary-65"
+      },
+      {
+        "protocol": "hysteria",
+        "settings": {
+          "version": 2,
+          "address": "195.63.128.21",
+          "port": 5443
+        },
+        "streamSettings": {
+          "network": "hysteria",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "germany.cloudhouse1.ru"
+          },
+          "hysteriaSettings": {
+            "version": 2,
+            "auth": "fa937345-6d3e-4ff4-8127-1a836987a0db"
+          }
+        },
+        "tag": "primary-66"
       },
       {
         "protocol": "vless",
@@ -2978,7 +3000,7 @@
             "publicKey": "vmHHRwA9ER6c8dfgtL-gh2HBMCvjySy1xLimqYpLiCI"
           }
         },
-        "tag": "primary-66"
+        "tag": "primary-67"
       },
       {
         "protocol": "vless",
@@ -3006,66 +3028,7 @@
             "shortId": "361d0dd59c70516f"
           }
         },
-        "tag": "primary-67"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "201.8.64.226",
-              "port": 443,
-              "users": [
-                {
-                  "id": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
-                  "encryption": "none"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "grpc",
-          "security": "reality",
-          "grpcSettings": {
-            "serviceName": "7d5abcd7d8a1"
-          },
-          "realitySettings": {
-            "serverName": "961ec0g.nl13.h1clayd.click",
-            "fingerprint": "firefox",
-            "publicKey": "xn7KVKS5MOnsFrYrEeRS04JssBCOxh12rxegaDFyGkA",
-            "shortId": "6d289ff0f47c0aac"
-          }
-        },
         "tag": "primary-68"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "201.8.64.226",
-              "port": 443,
-              "users": [
-                {
-                  "id": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
-                  "encryption": "none"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "raw",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "f0d7aft.nl13.h1clayd.click",
-            "fingerprint": "firefox",
-            "publicKey": "kkCGiCQCKnkozJR1KKCRNtmdBECmThCgI9VSv7iDcWI",
-            "shortId": "8956c57cb4c4f8d2"
-          }
-        },
-        "tag": "primary-69"
       },
       {
         "protocol": "vless",
@@ -3094,6 +3057,39 @@
             "shortId": "8b8dd8a1c0c468d3"
           }
         },
+        "tag": "primary-69"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "us-05.avroraservice.online",
+              "port": 8443,
+              "users": [
+                {
+                  "id": "ab53f3b6-7962-4bc1-90f6-8420767b22a8",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "reality",
+          "xhttpSettings": {
+            "path": "/xhttp",
+            "host": "",
+            "mode": "stream-one"
+          },
+          "realitySettings": {
+            "serverName": "cdn-us.cahmes.space",
+            "fingerprint": "firefox",
+            "publicKey": "KZejN2d1cwCrITHNxFYQVZ4rpMTZzHgJd9p30MZm_3k",
+            "shortId": "6bd33a75ebc0f26e"
+          }
+        },
         "tag": "primary-70"
       },
       {
@@ -3101,7 +3097,72 @@
         "settings": {
           "vnext": [
             {
-              "address": "201.8.64.226",
+              "address": "76.164.203.164",
+              "port": 443,
+              "users": [
+                {
+                  "id": "e75ad2eb-6c1f-45ce-8023-f5f10875df66",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "reality",
+          "xhttpSettings": {
+            "path": "/workspace/52eac742269e976f",
+            "host": "edge-d6d4b0609348.eu-cdn391.com",
+            "mode": "auto"
+          },
+          "realitySettings": {
+            "serverName": "edge-d6d4b0609348.eu-cdn391.com",
+            "fingerprint": "firefox",
+            "publicKey": "aDqvXSCQ_psc3zy9P_5sfy4bVXMVZsyUEIiyTgq-OlA",
+            "shortId": "1a083bf915dd9164"
+          }
+        },
+        "tag": "primary-71"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "144.31.225.114",
+              "port": 443,
+              "users": [
+                {
+                  "id": "e83bc3fd-5732-4b64-8f91-19fc7aa0edb0",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "reality",
+          "xhttpSettings": {
+            "path": "/static/v2/media",
+            "host": "",
+            "mode": "auto"
+          },
+          "realitySettings": {
+            "serverName": "static-nl.song69.fun",
+            "fingerprint": "firefox",
+            "publicKey": "ua6CK4GeIj_7Ae90bUHORFUFH2RRt9BksP9CmN-2VlU"
+          }
+        },
+        "tag": "primary-72"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "04535dt.us8.h1clayd.click",
               "port": 443,
               "users": [
                 {
@@ -3113,37 +3174,20 @@
           ]
         },
         "streamSettings": {
-          "network": "xhttp",
+          "network": "raw",
           "security": "reality",
-          "xhttpSettings": {
-            "path": "/d610f026b146",
-            "host": "80cb66x.nl13.h1clayd.click",
-            "mode": "auto"
+          "rawSettings": {
+            "header": {
+              "type": "none"
+            }
           },
           "realitySettings": {
-            "serverName": "80cb66x.nl13.h1clayd.click",
+            "serverName": "04535dt.us8.h1clayd.click",
             "fingerprint": "firefox",
-            "publicKey": "jhVdP7NFUaEXGfrmOqJlMCHTvqn3fymbzPfPT6NO4i0",
-            "shortId": "f72d4a2c7cbbacb1"
+            "publicKey": "UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY",
+            "shortId": "ba2a3dce62b99092",
+            "spiderX": "/"
           }
-        },
-        "tag": "primary-71"
-      },
-      {
-        "protocol": "shadowsocks",
-        "settings": {
-          "servers": [
-            {
-              "address": "54.37.240.40",
-              "port": 8080,
-              "method": "chacha20-ietf-poly1305",
-              "password": "8nrpt2il04ptci2j"
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "raw",
-          "security": "none"
         },
         "tag": "reserve-0"
       },
@@ -4405,6 +4449,36 @@
           "network": "websocket",
           "security": "tls",
           "wsSettings": {
+            "path": "/?ed=2048",
+            "host": "fs.qicai99.com"
+          },
+          "tlsSettings": {
+            "serverName": "fs.qicai99.com",
+            "allowInsecure": false
+          }
+        },
+        "tag": "node-0041 | 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "104.18.38.33",
+              "port": 443,
+              "users": [
+                {
+                  "id": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "websocket",
+          "security": "tls",
+          "wsSettings": {
             "path": "/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET",
             "host": "fs.qicai99.com"
           },
@@ -4992,6 +5066,37 @@
           }
         },
         "tag": "node-0062 | 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "162.159.198.1",
+              "port": 443,
+              "users": [
+                {
+                  "id": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "websocket",
+          "security": "tls",
+          "wsSettings": {
+            "path": "/?ed=2560",
+            "host": "fs.qicai99.com"
+          },
+          "tlsSettings": {
+            "serverName": "fs.qicai99.com",
+            "fingerprint": "chrome",
+            "allowInsecure": false
+          }
+        },
+        "tag": "node-0063 | 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]"
       },
       {
         "protocol": "vless",
@@ -5668,65 +5773,6 @@
         "settings": {
           "vnext": [
             {
-              "address": "172.64.159.33",
-              "port": 443,
-              "users": [
-                {
-                  "id": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
-                  "encryption": "none"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "websocket",
-          "security": "tls",
-          "wsSettings": {
-            "path": "/",
-            "host": "fs.qicai99.com"
-          },
-          "tlsSettings": {
-            "serverName": "fs.qicai99.com"
-          }
-        },
-        "tag": "node-0086 | 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "172.67.167.207",
-              "port": 443,
-              "users": [
-                {
-                  "id": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
-                  "encryption": "none"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "websocket",
-          "security": "tls",
-          "wsSettings": {
-            "path": "/",
-            "host": "fs.qicai99.com"
-          },
-          "tlsSettings": {
-            "serverName": "fs.qicai99.com",
-            "fingerprint": "chrome"
-          }
-        },
-        "tag": "node-0087 | 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
               "address": "172.67.167.207",
               "port": 443,
               "users": [
@@ -6106,6 +6152,26 @@
         "settings": {
           "version": 2,
           "address": "195.63.128.21",
+          "port": 10444
+        },
+        "streamSettings": {
+          "network": "hysteria",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "germany.cloudhouse1.ru"
+          },
+          "hysteriaSettings": {
+            "version": 2,
+            "auth": "fa937345-6d3e-4ff4-8127-1a836987a0db"
+          }
+        },
+        "tag": "node-0114 | 🇳🇱 Нидерланды"
+      },
+      {
+        "protocol": "hysteria",
+        "settings": {
+          "version": 2,
+          "address": "195.63.128.21",
           "port": 5443
         },
         "streamSettings": {
@@ -6182,65 +6248,6 @@
         "settings": {
           "vnext": [
             {
-              "address": "201.8.64.226",
-              "port": 443,
-              "users": [
-                {
-                  "id": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
-                  "encryption": "none"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "grpc",
-          "security": "reality",
-          "grpcSettings": {
-            "serviceName": "7d5abcd7d8a1"
-          },
-          "realitySettings": {
-            "serverName": "961ec0g.nl13.h1clayd.click",
-            "fingerprint": "firefox",
-            "publicKey": "xn7KVKS5MOnsFrYrEeRS04JssBCOxh12rxegaDFyGkA",
-            "shortId": "6d289ff0f47c0aac"
-          }
-        },
-        "tag": "node-0131 | 🇺🇸 США"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "201.8.64.226",
-              "port": 443,
-              "users": [
-                {
-                  "id": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
-                  "encryption": "none"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "raw",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "f0d7aft.nl13.h1clayd.click",
-            "fingerprint": "firefox",
-            "publicKey": "kkCGiCQCKnkozJR1KKCRNtmdBECmThCgI9VSv7iDcWI",
-            "shortId": "8956c57cb4c4f8d2"
-          }
-        },
-        "tag": "node-0132 | 🇺🇸 США"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
               "address": "193.228.128.230",
               "port": 443,
               "users": [
@@ -6270,11 +6277,11 @@
         "settings": {
           "vnext": [
             {
-              "address": "201.8.64.226",
-              "port": 443,
+              "address": "us-05.avroraservice.online",
+              "port": 8443,
               "users": [
                 {
-                  "id": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
+                  "id": "ab53f3b6-7962-4bc1-90f6-8420767b22a8",
                   "encryption": "none"
                 }
               ]
@@ -6285,18 +6292,83 @@
           "network": "xhttp",
           "security": "reality",
           "xhttpSettings": {
-            "path": "/d610f026b146",
-            "host": "80cb66x.nl13.h1clayd.click",
+            "path": "/xhttp",
+            "host": "",
+            "mode": "stream-one"
+          },
+          "realitySettings": {
+            "serverName": "cdn-us.cahmes.space",
+            "fingerprint": "firefox",
+            "publicKey": "KZejN2d1cwCrITHNxFYQVZ4rpMTZzHgJd9p30MZm_3k",
+            "shortId": "6bd33a75ebc0f26e"
+          }
+        },
+        "tag": "node-0139 | 🇨🇾 Кипр"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "76.164.203.164",
+              "port": 443,
+              "users": [
+                {
+                  "id": "e75ad2eb-6c1f-45ce-8023-f5f10875df66",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "reality",
+          "xhttpSettings": {
+            "path": "/workspace/52eac742269e976f",
+            "host": "edge-d6d4b0609348.eu-cdn391.com",
             "mode": "auto"
           },
           "realitySettings": {
-            "serverName": "80cb66x.nl13.h1clayd.click",
+            "serverName": "edge-d6d4b0609348.eu-cdn391.com",
             "fingerprint": "firefox",
-            "publicKey": "jhVdP7NFUaEXGfrmOqJlMCHTvqn3fymbzPfPT6NO4i0",
-            "shortId": "f72d4a2c7cbbacb1"
+            "publicKey": "aDqvXSCQ_psc3zy9P_5sfy4bVXMVZsyUEIiyTgq-OlA",
+            "shortId": "1a083bf915dd9164"
           }
         },
-        "tag": "node-0136 | 🇺🇸 США"
+        "tag": "node-0142 | 🇪🇸 Испания"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "144.31.225.114",
+              "port": 443,
+              "users": [
+                {
+                  "id": "e83bc3fd-5732-4b64-8f91-19fc7aa0edb0",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "reality",
+          "xhttpSettings": {
+            "path": "/static/v2/media",
+            "host": "",
+            "mode": "auto"
+          },
+          "realitySettings": {
+            "serverName": "static-nl.song69.fun",
+            "fingerprint": "firefox",
+            "publicKey": "ua6CK4GeIj_7Ae90bUHORFUFH2RRt9BksP9CmN-2VlU"
+          }
+        },
+        "tag": "node-0143 | 🇩🇪 Германия"
       },
       {
         "tag": "direct",
@@ -7289,22 +7361,38 @@
     ],
     "outbounds": [
       {
-        "protocol": "shadowsocks",
+        "protocol": "vless",
         "settings": {
-          "servers": [
+          "vnext": [
             {
-              "address": "54.37.240.40",
-              "port": 8080,
-              "method": "chacha20-ietf-poly1305",
-              "password": "8nrpt2il04ptci2j"
+              "address": "04535dt.us8.h1clayd.click",
+              "port": 443,
+              "users": [
+                {
+                  "id": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
+                  "encryption": "none"
+                }
+              ]
             }
           ]
         },
         "streamSettings": {
           "network": "raw",
-          "security": "none"
+          "security": "reality",
+          "rawSettings": {
+            "header": {
+              "type": "none"
+            }
+          },
+          "realitySettings": {
+            "serverName": "04535dt.us8.h1clayd.click",
+            "fingerprint": "firefox",
+            "publicKey": "UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY",
+            "shortId": "ba2a3dce62b99092",
+            "spiderX": "/"
+          }
         },
-        "tag": "node-0088 | 🇬🇧 Великобритания"
+        "tag": "node-0086 | 🇷🇺 Россия"
       },
       {
         "tag": "direct",

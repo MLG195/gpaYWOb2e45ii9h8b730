@@ -1002,103 +1002,10 @@
           },
           "tlsSettings": {
             "serverName": "d1ivx1xk58pr8u.cloudfront.net",
-            "fingerprint": "chrome"
+            "fingerprint": "firefox"
           }
         },
         "tag": "primary-0"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "108.156.65.62",
-              "port": 443,
-              "users": [
-                {
-                  "id": "2e69b088-6ef3-417f-8247-125cf257fafd",
-                  "encryption": "none"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "xhttpSettings": {
-            "path": "/cf",
-            "host": "",
-            "mode": "auto"
-          },
-          "tlsSettings": {
-            "serverName": "d1ivx1xk58pr8u.cloudfront.net",
-            "fingerprint": "firefox"
-          }
-        },
-        "tag": "primary-1"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "108.156.65.62",
-              "port": 443,
-              "users": [
-                {
-                  "id": "2e69b088-6ef3-417f-8247-125cf257fafd",
-                  "encryption": "none"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "xhttpSettings": {
-            "path": "/cf",
-            "host": "d1ivx1xk58pr8u.cloudfront.net",
-            "mode": "auto"
-          },
-          "tlsSettings": {
-            "serverName": "d1ivx1xk58pr8u.cloudfront.net",
-            "fingerprint": "chrome"
-          }
-        },
-        "tag": "primary-2"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "108.156.65.62",
-              "port": 443,
-              "users": [
-                {
-                  "id": "2e69b088-6ef3-417f-8247-125cf257fafd",
-                  "encryption": "none"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "xhttpSettings": {
-            "path": "/cf",
-            "host": "d1ivx1xk58pr8u.cloudfront.net",
-            "mode": "auto"
-          },
-          "tlsSettings": {
-            "serverName": "d1ivx1xk58pr8u.cloudfront.net",
-            "fingerprint": "firefox"
-          }
-        },
-        "tag": "primary-3"
       },
       {
         "protocol": "vless",
@@ -1125,14 +1032,14 @@
           },
           "tlsSettings": {
             "serverName": "free.sahanwickramasinghe.com",
-            "fingerprint": "edge",
+            "fingerprint": "firefox",
             "alpn": [
               "http/1.1"
             ],
             "allowInsecure": false
           }
         },
-        "tag": "primary-4"
+        "tag": "primary-1"
       },
       {
         "protocol": "vless",
@@ -1166,7 +1073,7 @@
             "allowInsecure": false
           }
         },
-        "tag": "primary-5"
+        "tag": "primary-2"
       },
       {
         "protocol": "vless",
@@ -1193,7 +1100,111 @@
           },
           "tlsSettings": {
             "serverName": "free.sahanwickramasinghe.com",
-            "fingerprint": "android"
+            "fingerprint": "chrome",
+            "alpn": [
+              "http/1.1"
+            ],
+            "allowInsecure": false
+          }
+        },
+        "tag": "primary-3"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "free-config-bot-development-33s35.lucity.app",
+              "port": 443,
+              "users": [
+                {
+                  "id": "474c5a2e-96eb-fa3f-6639-cbd2129c8027",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "websocket",
+          "security": "tls",
+          "wsSettings": {
+            "path": "/ws/474c5a2e-96eb-fa3f-6639-cbd2129c8027",
+            "host": "free-config-bot-development-33s35.lucity.app"
+          },
+          "tlsSettings": {
+            "serverName": "free-config-bot-development-33s35.lucity.app",
+            "fingerprint": "firefox",
+            "alpn": [
+              "http/1.1"
+            ]
+          }
+        },
+        "tag": "primary-4"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "80.47.10.106",
+              "port": 443,
+              "users": [
+                {
+                  "id": "a30903dc-1bf0-4be5-8b1b-603a3a56211c",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "raw",
+          "security": "reality",
+          "rawSettings": {
+            "header": {
+              "type": "none"
+            }
+          },
+          "realitySettings": {
+            "serverName": "pl8.galioncc.com",
+            "fingerprint": "chrome",
+            "publicKey": "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ",
+            "shortId": "a7c92e4b10d6f835"
+          }
+        },
+        "tag": "primary-5"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "138.16.249.177",
+              "port": 443,
+              "users": [
+                {
+                  "id": "80a06811-f74b-4b82-ac99-7e66c2a98e1c",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "tls",
+          "xhttpSettings": {
+            "path": "/api/preview/",
+            "host": "folio.basterdym.asia",
+            "mode": "packet-up"
+          },
+          "tlsSettings": {
+            "serverName": "folio.basterdym.asia",
+            "fingerprint": "edge",
+            "alpn": [
+              "h2"
+            ]
           }
         },
         "tag": "primary-6"
@@ -1203,11 +1214,11 @@
         "settings": {
           "vnext": [
             {
-              "address": "104.17.70.206",
-              "port": 8443,
+              "address": "138.16.249.177",
+              "port": 443,
               "users": [
                 {
-                  "id": "3692de53-42e6-4aed-a522-40ec355dcd2f",
+                  "id": "80a06811-f74b-4b82-ac99-7e66c2a98e1c",
                   "encryption": "none"
                 }
               ]
@@ -1215,15 +1226,19 @@
           ]
         },
         "streamSettings": {
-          "network": "websocket",
+          "network": "xhttp",
           "security": "tls",
-          "wsSettings": {
-            "path": "/",
-            "host": "free.sahanwickramasinghe.com"
+          "xhttpSettings": {
+            "path": "/api/preview/",
+            "host": "folio.basterdym.asia",
+            "mode": "packet-up"
           },
           "tlsSettings": {
-            "serverName": "free.sahanwickramasinghe.com",
-            "fingerprint": "chrome"
+            "serverName": "folio.basterdym.asia",
+            "fingerprint": "firefox",
+            "alpn": [
+              "h2"
+            ]
           }
         },
         "tag": "primary-7"
@@ -1233,27 +1248,27 @@
         "settings": {
           "vnext": [
             {
-              "address": "ws137.mydosss.ccwu.cc",
+              "address": "45.150.108.180",
               "port": 443,
               "users": [
                 {
-                  "id": "369360e9-ff90-43c3-b81b-ebac420fce73",
-                  "encryption": "none"
+                  "id": "8197b9b9-8945-460f-99c9-325ef8a8a7c3",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
                 }
               ]
             }
           ]
         },
         "streamSettings": {
-          "network": "websocket",
-          "security": "tls",
-          "wsSettings": {
-            "path": "/3b575ddc8596",
-            "host": "ws137.mydosss.ccwu.cc"
-          },
-          "tlsSettings": {
-            "serverName": "ws137.mydosss.ccwu.cc",
-            "fingerprint": "safari"
+          "network": "raw",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "il1.gofizzin.com",
+            "fingerprint": "firefox",
+            "publicKey": "Jw--SSPecJpt9-lke7H9Bdr8F73xxtvC_5ZrxiWRog0",
+            "shortId": "dc1bf50b0e0a",
+            "spiderX": "/b4fcc6d25bda84e"
           }
         },
         "tag": "primary-8"
@@ -1263,11 +1278,11 @@
         "settings": {
           "vnext": [
             {
-              "address": "ws137.mydosss.ccwu.cc",
+              "address": "luminexorizon.ink",
               "port": 443,
               "users": [
                 {
-                  "id": "369360e9-ff90-43c3-b81b-ebac420fce73",
+                  "id": "4b50270b-5caf-4c34-b3da-17b4525604a6",
                   "encryption": "none"
                 }
               ]
@@ -1275,29 +1290,32 @@
           ]
         },
         "streamSettings": {
-          "network": "websocket",
+          "network": "grpc",
           "security": "tls",
-          "wsSettings": {
-            "path": "/3b575ddc8596",
-            "host": ""
+          "grpcSettings": {
+            "serviceName": "glush.de3.v1",
+            "multiMode": false
           },
           "tlsSettings": {
-            "serverName": "ws137.mydosss.ccwu.cc",
-            "fingerprint": "android"
+            "serverName": "luminexorizon.ink",
+            "fingerprint": "firefox",
+            "alpn": [
+              "h2"
+            ]
           }
         },
-        "tag": "primary-9"
+        "tag": "reserve-0"
       },
       {
         "protocol": "vless",
         "settings": {
           "vnext": [
             {
-              "address": "ws137.mydosss.ccwu.cc",
+              "address": "luminexorizon.ink",
               "port": 443,
               "users": [
                 {
-                  "id": "56066a03-d283-48cf-8120-eb8d810025cb",
+                  "id": "4b50270b-5caf-4c34-b3da-17b4525604a6",
                   "encryption": "none"
                 }
               ]
@@ -1305,29 +1323,32 @@
           ]
         },
         "streamSettings": {
-          "network": "websocket",
+          "network": "grpc",
           "security": "tls",
-          "wsSettings": {
-            "path": "/3b575ddc8596",
-            "host": "ws137.mydosss.ccwu.cc"
+          "grpcSettings": {
+            "serviceName": "glush.de3.v1",
+            "multiMode": false
           },
           "tlsSettings": {
-            "serverName": "ws137.mydosss.ccwu.cc",
-            "fingerprint": "qq"
+            "serverName": "luminexorizon.ink",
+            "fingerprint": "qq",
+            "alpn": [
+              "h2"
+            ]
           }
         },
-        "tag": "primary-10"
+        "tag": "reserve-1"
       },
       {
         "protocol": "vless",
         "settings": {
           "vnext": [
             {
-              "address": "ws137.mydosss.ccwu.cc",
+              "address": "clover.filnex.baby",
               "port": 443,
               "users": [
                 {
-                  "id": "7e0e7ca3-7aab-420e-9b40-c15a228ef33a",
+                  "id": "80a06811-f74b-4b82-ac99-7e66c2a98e1c",
                   "encryption": "none"
                 }
               ]
@@ -1338,26 +1359,29 @@
           "network": "websocket",
           "security": "tls",
           "wsSettings": {
-            "path": "/3b575ddc8596",
-            "host": "ws137.mydosss.ccwu.cc"
+            "path": "/api/de6/stream",
+            "host": "clover.filnex.baby"
           },
           "tlsSettings": {
-            "serverName": "ws137.mydosss.ccwu.cc",
-            "fingerprint": "chrome"
+            "serverName": "clover.filnex.baby",
+            "fingerprint": "edge",
+            "alpn": [
+              "http/1.1"
+            ]
           }
         },
-        "tag": "primary-11"
+        "tag": "reserve-2"
       },
       {
         "protocol": "vless",
         "settings": {
           "vnext": [
             {
-              "address": "ws137.mydosss.ccwu.cc",
+              "address": "clover.filnex.baby",
               "port": 443,
               "users": [
                 {
-                  "id": "7e0e7ca3-7aab-420e-9b40-c15a228ef33a",
+                  "id": "80a06811-f74b-4b82-ac99-7e66c2a98e1c",
                   "encryption": "none"
                 }
               ]
@@ -1368,26 +1392,29 @@
           "network": "websocket",
           "security": "tls",
           "wsSettings": {
-            "path": "/3b575ddc8596",
-            "host": "ws137.mydosss.ccwu.cc"
+            "path": "/api/de6/stream",
+            "host": "clover.filnex.baby"
           },
           "tlsSettings": {
-            "serverName": "ws137.mydosss.ccwu.cc",
-            "fingerprint": "android"
+            "serverName": "clover.filnex.baby",
+            "fingerprint": "ios",
+            "alpn": [
+              "http/1.1"
+            ]
           }
         },
-        "tag": "primary-12"
+        "tag": "reserve-3"
       },
       {
         "protocol": "vless",
         "settings": {
           "vnext": [
             {
-              "address": "ws137.mydosss.ccwu.cc",
+              "address": "clover.filnex.baby",
               "port": 443,
               "users": [
                 {
-                  "id": "7e0e7ca3-7aab-420e-9b40-c15a228ef33a",
+                  "id": "80a06811-f74b-4b82-ac99-7e66c2a98e1c",
                   "encryption": "none"
                 }
               ]
@@ -1398,26 +1425,59 @@
           "network": "websocket",
           "security": "tls",
           "wsSettings": {
-            "path": "/3b575ddc8596",
-            "host": "ws137.mydosss.ccwu.cc"
+            "path": "/api/de6/stream",
+            "host": "clover.filnex.baby"
           },
           "tlsSettings": {
-            "serverName": "ws137.mydosss.ccwu.cc",
+            "serverName": "clover.filnex.baby",
+            "fingerprint": "safari",
+            "alpn": [
+              "http/1.1"
+            ]
+          }
+        },
+        "tag": "reserve-4"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "clover.filnex.baby",
+              "port": 443,
+              "users": [
+                {
+                  "id": "80a06811-f74b-4b82-ac99-7e66c2a98e1c",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "websocket",
+          "security": "tls",
+          "wsSettings": {
+            "path": "/api/de6/stream",
+            "host": "clover.filnex.baby"
+          },
+          "tlsSettings": {
+            "serverName": "clover.filnex.baby",
             "fingerprint": "edge"
           }
         },
-        "tag": "primary-13"
+        "tag": "reserve-5"
       },
       {
         "protocol": "vless",
         "settings": {
           "vnext": [
             {
-              "address": "ws137.mydosss.ccwu.cc",
+              "address": "reedbed.filnex.baby",
               "port": 443,
               "users": [
                 {
-                  "id": "7e0e7ca3-7aab-420e-9b40-c15a228ef33a",
+                  "id": "80a06811-f74b-4b82-ac99-7e66c2a98e1c",
                   "encryption": "none"
                 }
               ]
@@ -1428,26 +1488,29 @@
           "network": "websocket",
           "security": "tls",
           "wsSettings": {
-            "path": "/3b575ddc8596",
-            "host": ""
+            "path": "/api/de6/stream",
+            "host": "reedbed.filnex.baby"
           },
           "tlsSettings": {
-            "serverName": "ws137.mydosss.ccwu.cc",
-            "fingerprint": "qq"
+            "serverName": "reedbed.filnex.baby",
+            "fingerprint": "safari",
+            "alpn": [
+              "http/1.1"
+            ]
           }
         },
-        "tag": "primary-14"
+        "tag": "reserve-6"
       },
       {
         "protocol": "vless",
         "settings": {
           "vnext": [
             {
-              "address": "ws137.mydosss.ccwu.cc",
+              "address": "rivulet.filnex.baby",
               "port": 443,
               "users": [
                 {
-                  "id": "7e0e7ca3-7aab-420e-9b40-c15a228ef33a",
+                  "id": "80a06811-f74b-4b82-ac99-7e66c2a98e1c",
                   "encryption": "none"
                 }
               ]
@@ -1458,62 +1521,85 @@
           "network": "websocket",
           "security": "tls",
           "wsSettings": {
-            "path": "/3b575ddc8596",
-            "host": ""
+            "path": "/api/de6/stream",
+            "host": "rivulet.filnex.baby"
           },
           "tlsSettings": {
-            "serverName": "ws137.mydosss.ccwu.cc",
-            "fingerprint": "safari"
+            "serverName": "rivulet.filnex.baby",
+            "fingerprint": "chrome",
+            "alpn": [
+              "http/1.1"
+            ]
           }
         },
-        "tag": "primary-15"
+        "tag": "reserve-7"
       },
       {
         "protocol": "vless",
         "settings": {
           "vnext": [
             {
-              "address": "www.vmware.com",
-              "port": 2087,
+              "address": "04535dt.us8.h1clayd.click",
+              "port": 443,
               "users": [
                 {
-                  "id": "bf14dc50-e9f2-49fd-8642-620446edeafb",
+                  "id": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
                   "encryption": "none"
                 }
               ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "websocket",
-          "security": "tls",
-          "wsSettings": {
-            "path": "/fp=chrome",
-            "host": "v7-e4v.pages.dev"
-          },
-          "tlsSettings": {
-            "serverName": "v7-e4v.pages.dev"
-          }
-        },
-        "tag": "primary-16"
-      },
-      {
-        "protocol": "shadowsocks",
-        "settings": {
-          "servers": [
-            {
-              "address": "54.37.240.40",
-              "port": 8080,
-              "method": "chacha20-ietf-poly1305",
-              "password": "8nrpt2il04ptci2j"
             }
           ]
         },
         "streamSettings": {
           "network": "raw",
-          "security": "none"
+          "security": "reality",
+          "rawSettings": {
+            "header": {
+              "type": "none"
+            }
+          },
+          "realitySettings": {
+            "serverName": "04535dt.us8.h1clayd.click",
+            "fingerprint": "firefox",
+            "publicKey": "UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY",
+            "shortId": "ba2a3dce62b99092",
+            "spiderX": "/"
+          }
         },
-        "tag": "reserve-0"
+        "tag": "reserve-8"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "35295cx.us8.h1clayd.click",
+              "port": 443,
+              "users": [
+                {
+                  "id": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "reality",
+          "xhttpSettings": {
+            "path": "/1812842934d4",
+            "host": "",
+            "mode": "auto"
+          },
+          "realitySettings": {
+            "serverName": "35295cx.us8.h1clayd.click",
+            "fingerprint": "firefox",
+            "publicKey": "LsaTohbE6CqCH9UbYKwIybVXG3E5Wgz_X9czqas2LAI",
+            "shortId": "9acff4d98e2fbcc6"
+          }
+        },
+        "tag": "reserve-9"
       },
       {
         "tag": "fallback-loop",
@@ -2539,103 +2625,10 @@
           },
           "tlsSettings": {
             "serverName": "d1ivx1xk58pr8u.cloudfront.net",
-            "fingerprint": "chrome"
-          }
-        },
-        "tag": "node-0004 | 🇫🇮 Finland, Helsinki | [BL]"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "108.156.65.62",
-              "port": 443,
-              "users": [
-                {
-                  "id": "2e69b088-6ef3-417f-8247-125cf257fafd",
-                  "encryption": "none"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "xhttpSettings": {
-            "path": "/cf",
-            "host": "",
-            "mode": "auto"
-          },
-          "tlsSettings": {
-            "serverName": "d1ivx1xk58pr8u.cloudfront.net",
             "fingerprint": "firefox"
           }
         },
-        "tag": "node-0005 | 🇫🇮 Finland, Helsinki | [BL]"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "108.156.65.62",
-              "port": 443,
-              "users": [
-                {
-                  "id": "2e69b088-6ef3-417f-8247-125cf257fafd",
-                  "encryption": "none"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "xhttpSettings": {
-            "path": "/cf",
-            "host": "d1ivx1xk58pr8u.cloudfront.net",
-            "mode": "auto"
-          },
-          "tlsSettings": {
-            "serverName": "d1ivx1xk58pr8u.cloudfront.net",
-            "fingerprint": "chrome"
-          }
-        },
-        "tag": "node-0006 | 🇫🇮 Finland, Helsinki | [BL]"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "108.156.65.62",
-              "port": 443,
-              "users": [
-                {
-                  "id": "2e69b088-6ef3-417f-8247-125cf257fafd",
-                  "encryption": "none"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "tls",
-          "xhttpSettings": {
-            "path": "/cf",
-            "host": "d1ivx1xk58pr8u.cloudfront.net",
-            "mode": "auto"
-          },
-          "tlsSettings": {
-            "serverName": "d1ivx1xk58pr8u.cloudfront.net",
-            "fingerprint": "firefox"
-          }
-        },
-        "tag": "node-0007 | 🇫🇮 Finland, Helsinki | [BL]"
+        "tag": "node-0008 | 🇫🇮 Finland, Helsinki | [BL]"
       },
       {
         "protocol": "vless",
@@ -2662,14 +2655,14 @@
           },
           "tlsSettings": {
             "serverName": "free.sahanwickramasinghe.com",
-            "fingerprint": "edge",
+            "fingerprint": "firefox",
             "alpn": [
               "http/1.1"
             ],
             "allowInsecure": false
           }
         },
-        "tag": "node-0010 | 🇩🇪 Germany | 🌐 | [BL]"
+        "tag": "node-0012 | 🇩🇪 Germany | 🌐 | [BL]"
       },
       {
         "protocol": "vless",
@@ -2703,66 +2696,6 @@
             "allowInsecure": false
           }
         },
-        "tag": "node-0011 | 🇩🇪 Germany | 🌐 | [BL]"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "104.17.70.206",
-              "port": 8443,
-              "users": [
-                {
-                  "id": "3692de53-42e6-4aed-a522-40ec355dcd2f",
-                  "encryption": "none"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "websocket",
-          "security": "tls",
-          "wsSettings": {
-            "path": "/",
-            "host": "free.sahanwickramasinghe.com"
-          },
-          "tlsSettings": {
-            "serverName": "free.sahanwickramasinghe.com",
-            "fingerprint": "android"
-          }
-        },
-        "tag": "node-0012 | 🇩🇪 Germany | 🌐 | [BL]"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "104.17.70.206",
-              "port": 8443,
-              "users": [
-                {
-                  "id": "3692de53-42e6-4aed-a522-40ec355dcd2f",
-                  "encryption": "none"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "websocket",
-          "security": "tls",
-          "wsSettings": {
-            "path": "/",
-            "host": "free.sahanwickramasinghe.com"
-          },
-          "tlsSettings": {
-            "serverName": "free.sahanwickramasinghe.com",
-            "fingerprint": "chrome"
-          }
-        },
         "tag": "node-0013 | 🇩🇪 Germany | 🌐 | [BL]"
       },
       {
@@ -2770,11 +2703,11 @@
         "settings": {
           "vnext": [
             {
-              "address": "ws137.mydosss.ccwu.cc",
-              "port": 443,
+              "address": "104.17.70.206",
+              "port": 8443,
               "users": [
                 {
-                  "id": "369360e9-ff90-43c3-b81b-ebac420fce73",
+                  "id": "3692de53-42e6-4aed-a522-40ec355dcd2f",
                   "encryption": "none"
                 }
               ]
@@ -2785,26 +2718,30 @@
           "network": "websocket",
           "security": "tls",
           "wsSettings": {
-            "path": "/3b575ddc8596",
-            "host": "ws137.mydosss.ccwu.cc"
+            "path": "/",
+            "host": "free.sahanwickramasinghe.com"
           },
           "tlsSettings": {
-            "serverName": "ws137.mydosss.ccwu.cc",
-            "fingerprint": "safari"
+            "serverName": "free.sahanwickramasinghe.com",
+            "fingerprint": "chrome",
+            "alpn": [
+              "http/1.1"
+            ],
+            "allowInsecure": false
           }
         },
-        "tag": "node-0052 | 🇺🇸 United States | 🌐 | [BL]"
+        "tag": "node-0014 | 🇩🇪 Germany | 🌐 | [BL]"
       },
       {
         "protocol": "vless",
         "settings": {
           "vnext": [
             {
-              "address": "ws137.mydosss.ccwu.cc",
+              "address": "free-config-bot-development-33s35.lucity.app",
               "port": 443,
               "users": [
                 {
-                  "id": "369360e9-ff90-43c3-b81b-ebac420fce73",
+                  "id": "474c5a2e-96eb-fa3f-6639-cbd2129c8027",
                   "encryption": "none"
                 }
               ]
@@ -2815,26 +2752,29 @@
           "network": "websocket",
           "security": "tls",
           "wsSettings": {
-            "path": "/3b575ddc8596",
-            "host": ""
+            "path": "/ws/474c5a2e-96eb-fa3f-6639-cbd2129c8027",
+            "host": "free-config-bot-development-33s35.lucity.app"
           },
           "tlsSettings": {
-            "serverName": "ws137.mydosss.ccwu.cc",
-            "fingerprint": "android"
+            "serverName": "free-config-bot-development-33s35.lucity.app",
+            "fingerprint": "firefox",
+            "alpn": [
+              "http/1.1"
+            ]
           }
         },
-        "tag": "node-0053 | 🇺🇸 United States | 🌐 | [BL]"
+        "tag": "node-0033 | 🇩🇪 Germany, Nuremberg | [BL]"
       },
       {
         "protocol": "vless",
         "settings": {
           "vnext": [
             {
-              "address": "ws137.mydosss.ccwu.cc",
+              "address": "80.47.10.106",
               "port": 443,
               "users": [
                 {
-                  "id": "56066a03-d283-48cf-8120-eb8d810025cb",
+                  "id": "a30903dc-1bf0-4be5-8b1b-603a3a56211c",
                   "encryption": "none"
                 }
               ]
@@ -2842,29 +2782,32 @@
           ]
         },
         "streamSettings": {
-          "network": "websocket",
-          "security": "tls",
-          "wsSettings": {
-            "path": "/3b575ddc8596",
-            "host": "ws137.mydosss.ccwu.cc"
+          "network": "raw",
+          "security": "reality",
+          "rawSettings": {
+            "header": {
+              "type": "none"
+            }
           },
-          "tlsSettings": {
-            "serverName": "ws137.mydosss.ccwu.cc",
-            "fingerprint": "qq"
+          "realitySettings": {
+            "serverName": "pl8.galioncc.com",
+            "fingerprint": "chrome",
+            "publicKey": "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ",
+            "shortId": "a7c92e4b10d6f835"
           }
         },
-        "tag": "node-0066 | 🇺🇸 United States | 🌐 | [BL]"
+        "tag": "node-0041 | 🇵🇱 Poland, Warsaw (Mokotów) | [BL]"
       },
       {
         "protocol": "vless",
         "settings": {
           "vnext": [
             {
-              "address": "ws137.mydosss.ccwu.cc",
+              "address": "138.16.249.177",
               "port": 443,
               "users": [
                 {
-                  "id": "7e0e7ca3-7aab-420e-9b40-c15a228ef33a",
+                  "id": "80a06811-f74b-4b82-ac99-7e66c2a98e1c",
                   "encryption": "none"
                 }
               ]
@@ -2872,29 +2815,33 @@
           ]
         },
         "streamSettings": {
-          "network": "websocket",
+          "network": "xhttp",
           "security": "tls",
-          "wsSettings": {
-            "path": "/3b575ddc8596",
-            "host": "ws137.mydosss.ccwu.cc"
+          "xhttpSettings": {
+            "path": "/api/preview/",
+            "host": "folio.basterdym.asia",
+            "mode": "packet-up"
           },
           "tlsSettings": {
-            "serverName": "ws137.mydosss.ccwu.cc",
-            "fingerprint": "chrome"
+            "serverName": "folio.basterdym.asia",
+            "fingerprint": "edge",
+            "alpn": [
+              "h2"
+            ]
           }
         },
-        "tag": "node-0067 | 🇺🇸 United States | 🌐 | [BL]"
+        "tag": "node-0052 | 🇳🇱 The Netherlands, Dedemsvaart | [BL]"
       },
       {
         "protocol": "vless",
         "settings": {
           "vnext": [
             {
-              "address": "ws137.mydosss.ccwu.cc",
+              "address": "138.16.249.177",
               "port": 443,
               "users": [
                 {
-                  "id": "7e0e7ca3-7aab-420e-9b40-c15a228ef33a",
+                  "id": "80a06811-f74b-4b82-ac99-7e66c2a98e1c",
                   "encryption": "none"
                 }
               ]
@@ -2902,137 +2849,52 @@
           ]
         },
         "streamSettings": {
-          "network": "websocket",
+          "network": "xhttp",
           "security": "tls",
-          "wsSettings": {
-            "path": "/3b575ddc8596",
-            "host": "ws137.mydosss.ccwu.cc"
+          "xhttpSettings": {
+            "path": "/api/preview/",
+            "host": "folio.basterdym.asia",
+            "mode": "packet-up"
           },
           "tlsSettings": {
-            "serverName": "ws137.mydosss.ccwu.cc",
-            "fingerprint": "android"
+            "serverName": "folio.basterdym.asia",
+            "fingerprint": "firefox",
+            "alpn": [
+              "h2"
+            ]
           }
         },
-        "tag": "node-0068 | 🇺🇸 United States | 🌐 | [BL]"
+        "tag": "node-0053 | 🇳🇱 The Netherlands, Dedemsvaart | [BL]"
       },
       {
         "protocol": "vless",
         "settings": {
           "vnext": [
             {
-              "address": "ws137.mydosss.ccwu.cc",
+              "address": "45.150.108.180",
               "port": 443,
               "users": [
                 {
-                  "id": "7e0e7ca3-7aab-420e-9b40-c15a228ef33a",
-                  "encryption": "none"
+                  "id": "8197b9b9-8945-460f-99c9-325ef8a8a7c3",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
                 }
               ]
             }
           ]
         },
         "streamSettings": {
-          "network": "websocket",
-          "security": "tls",
-          "wsSettings": {
-            "path": "/3b575ddc8596",
-            "host": "ws137.mydosss.ccwu.cc"
-          },
-          "tlsSettings": {
-            "serverName": "ws137.mydosss.ccwu.cc",
-            "fingerprint": "edge"
+          "network": "raw",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "il1.gofizzin.com",
+            "fingerprint": "firefox",
+            "publicKey": "Jw--SSPecJpt9-lke7H9Bdr8F73xxtvC_5ZrxiWRog0",
+            "shortId": "dc1bf50b0e0a",
+            "spiderX": "/b4fcc6d25bda84e"
           }
         },
-        "tag": "node-0069 | 🇺🇸 United States | 🌐 | [BL]"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "ws137.mydosss.ccwu.cc",
-              "port": 443,
-              "users": [
-                {
-                  "id": "7e0e7ca3-7aab-420e-9b40-c15a228ef33a",
-                  "encryption": "none"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "websocket",
-          "security": "tls",
-          "wsSettings": {
-            "path": "/3b575ddc8596",
-            "host": ""
-          },
-          "tlsSettings": {
-            "serverName": "ws137.mydosss.ccwu.cc",
-            "fingerprint": "qq"
-          }
-        },
-        "tag": "node-0070 | 🇺🇸 United States | 🌐 | [BL]"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "ws137.mydosss.ccwu.cc",
-              "port": 443,
-              "users": [
-                {
-                  "id": "7e0e7ca3-7aab-420e-9b40-c15a228ef33a",
-                  "encryption": "none"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "websocket",
-          "security": "tls",
-          "wsSettings": {
-            "path": "/3b575ddc8596",
-            "host": ""
-          },
-          "tlsSettings": {
-            "serverName": "ws137.mydosss.ccwu.cc",
-            "fingerprint": "safari"
-          }
-        },
-        "tag": "node-0071 | 🇺🇸 United States | 🌐 | [BL]"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "www.vmware.com",
-              "port": 2087,
-              "users": [
-                {
-                  "id": "bf14dc50-e9f2-49fd-8642-620446edeafb",
-                  "encryption": "none"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "websocket",
-          "security": "tls",
-          "wsSettings": {
-            "path": "/fp=chrome",
-            "host": "v7-e4v.pages.dev"
-          },
-          "tlsSettings": {
-            "serverName": "v7-e4v.pages.dev"
-          }
-        },
-        "tag": "node-0123 | 🌐 Anycast-IP | 🇨🇦 🇸🇪 🇺🇸 | [BL]"
+        "tag": "node-0108 | 🌐 Anycast-IP | 🇮🇱 | [BL]"
       },
       {
         "tag": "direct",
@@ -4025,22 +3887,332 @@
     ],
     "outbounds": [
       {
-        "protocol": "shadowsocks",
+        "protocol": "vless",
         "settings": {
-          "servers": [
+          "vnext": [
             {
-              "address": "54.37.240.40",
-              "port": 8080,
-              "method": "chacha20-ietf-poly1305",
-              "password": "8nrpt2il04ptci2j"
+              "address": "luminexorizon.ink",
+              "port": 443,
+              "users": [
+                {
+                  "id": "4b50270b-5caf-4c34-b3da-17b4525604a6",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "grpc",
+          "security": "tls",
+          "grpcSettings": {
+            "serviceName": "glush.de3.v1",
+            "multiMode": false
+          },
+          "tlsSettings": {
+            "serverName": "luminexorizon.ink",
+            "fingerprint": "firefox",
+            "alpn": [
+              "h2"
+            ]
+          }
+        },
+        "tag": "node-0009 | 🇩🇪 Germany | 🌐 [*CIDR]"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "luminexorizon.ink",
+              "port": 443,
+              "users": [
+                {
+                  "id": "4b50270b-5caf-4c34-b3da-17b4525604a6",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "grpc",
+          "security": "tls",
+          "grpcSettings": {
+            "serviceName": "glush.de3.v1",
+            "multiMode": false
+          },
+          "tlsSettings": {
+            "serverName": "luminexorizon.ink",
+            "fingerprint": "qq",
+            "alpn": [
+              "h2"
+            ]
+          }
+        },
+        "tag": "node-0010 | 🇩🇪 Germany | 🌐 [*CIDR]"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "clover.filnex.baby",
+              "port": 443,
+              "users": [
+                {
+                  "id": "80a06811-f74b-4b82-ac99-7e66c2a98e1c",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "websocket",
+          "security": "tls",
+          "wsSettings": {
+            "path": "/api/de6/stream",
+            "host": "clover.filnex.baby"
+          },
+          "tlsSettings": {
+            "serverName": "clover.filnex.baby",
+            "fingerprint": "edge",
+            "alpn": [
+              "http/1.1"
+            ]
+          }
+        },
+        "tag": "node-0018 | 🇩🇪 Germany | 🌐 [*CIDR]"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "clover.filnex.baby",
+              "port": 443,
+              "users": [
+                {
+                  "id": "80a06811-f74b-4b82-ac99-7e66c2a98e1c",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "websocket",
+          "security": "tls",
+          "wsSettings": {
+            "path": "/api/de6/stream",
+            "host": "clover.filnex.baby"
+          },
+          "tlsSettings": {
+            "serverName": "clover.filnex.baby",
+            "fingerprint": "ios",
+            "alpn": [
+              "http/1.1"
+            ]
+          }
+        },
+        "tag": "node-0020 | 🇩🇪 Germany | 🌐 [*CIDR]"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "clover.filnex.baby",
+              "port": 443,
+              "users": [
+                {
+                  "id": "80a06811-f74b-4b82-ac99-7e66c2a98e1c",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "websocket",
+          "security": "tls",
+          "wsSettings": {
+            "path": "/api/de6/stream",
+            "host": "clover.filnex.baby"
+          },
+          "tlsSettings": {
+            "serverName": "clover.filnex.baby",
+            "fingerprint": "safari",
+            "alpn": [
+              "http/1.1"
+            ]
+          }
+        },
+        "tag": "node-0022 | 🇩🇪 Germany | 🌐 [*CIDR]"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "clover.filnex.baby",
+              "port": 443,
+              "users": [
+                {
+                  "id": "80a06811-f74b-4b82-ac99-7e66c2a98e1c",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "websocket",
+          "security": "tls",
+          "wsSettings": {
+            "path": "/api/de6/stream",
+            "host": "clover.filnex.baby"
+          },
+          "tlsSettings": {
+            "serverName": "clover.filnex.baby",
+            "fingerprint": "edge"
+          }
+        },
+        "tag": "node-0026 | 🇩🇪 Germany | 🌐 [*CIDR]"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "reedbed.filnex.baby",
+              "port": 443,
+              "users": [
+                {
+                  "id": "80a06811-f74b-4b82-ac99-7e66c2a98e1c",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "websocket",
+          "security": "tls",
+          "wsSettings": {
+            "path": "/api/de6/stream",
+            "host": "reedbed.filnex.baby"
+          },
+          "tlsSettings": {
+            "serverName": "reedbed.filnex.baby",
+            "fingerprint": "safari",
+            "alpn": [
+              "http/1.1"
+            ]
+          }
+        },
+        "tag": "node-0029 | 🇩🇪 Germany | 🌐 [*CIDR]"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "rivulet.filnex.baby",
+              "port": 443,
+              "users": [
+                {
+                  "id": "80a06811-f74b-4b82-ac99-7e66c2a98e1c",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "websocket",
+          "security": "tls",
+          "wsSettings": {
+            "path": "/api/de6/stream",
+            "host": "rivulet.filnex.baby"
+          },
+          "tlsSettings": {
+            "serverName": "rivulet.filnex.baby",
+            "fingerprint": "chrome",
+            "alpn": [
+              "http/1.1"
+            ]
+          }
+        },
+        "tag": "node-0035 | 🇩🇪 Germany | 🌐 [*CIDR]"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "04535dt.us8.h1clayd.click",
+              "port": 443,
+              "users": [
+                {
+                  "id": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
+                  "encryption": "none"
+                }
+              ]
             }
           ]
         },
         "streamSettings": {
           "network": "raw",
-          "security": "none"
+          "security": "reality",
+          "rawSettings": {
+            "header": {
+              "type": "none"
+            }
+          },
+          "realitySettings": {
+            "serverName": "04535dt.us8.h1clayd.click",
+            "fingerprint": "firefox",
+            "publicKey": "UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY",
+            "shortId": "ba2a3dce62b99092",
+            "spiderX": "/"
+          }
         },
-        "tag": "node-0155 | 🇬🇧 Великобритания"
+        "tag": "node-0153 | 🇷🇺 Россия"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "35295cx.us8.h1clayd.click",
+              "port": 443,
+              "users": [
+                {
+                  "id": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "xhttp",
+          "security": "reality",
+          "xhttpSettings": {
+            "path": "/1812842934d4",
+            "host": "",
+            "mode": "auto"
+          },
+          "realitySettings": {
+            "serverName": "35295cx.us8.h1clayd.click",
+            "fingerprint": "firefox",
+            "publicKey": "LsaTohbE6CqCH9UbYKwIybVXG3E5Wgz_X9czqas2LAI",
+            "shortId": "9acff4d98e2fbcc6"
+          }
+        },
+        "tag": "node-0159 | 🇷🇺 Россия"
       },
       {
         "tag": "direct",
